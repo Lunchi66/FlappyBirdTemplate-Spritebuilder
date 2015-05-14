@@ -53,7 +53,7 @@
 
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     if (!_gameOver) {
-        [character.physicsBody applyAngularImpulse:0000.f];
+        [character.physicsBody applyAngularImpulse:100000.f];
         _sinceTouch = 0.f;
         
         @try
